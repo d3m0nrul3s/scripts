@@ -25,7 +25,7 @@ declare -r url_stop_machine="https://hackthebox.eu/api/vm/vip/remove/"
 declare -r url_extend_machine="https://hackthebox.eu/api/vm/vip/extend/"
 declare -r url_assign_machine="https://hackthebox.eu/api/vm/vip/assign/"
 declare -r tmp_file="tmp.json"
-declare -r API_TOKEN="hHnZNcFjtDxDm1mGRd46ZSaXRxMG3CqEbQFF4pHgwOw7zm4RmQbzlMOqsIlY" # <Your API Token goes here>
+declare -r API_TOKEN="" # <Your API Token goes here>
 
 trap ctrl_c INT
 
